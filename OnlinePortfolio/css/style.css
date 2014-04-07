@@ -64,6 +64,7 @@ h1{
     line-height:30px;
     color:#B22222; /* Fire Brick */
     margin-top:5px;
+    margin-bottom:10px;
 }
 
 h2{
@@ -82,15 +83,13 @@ h3{
     font-weight:bold;
     text-align:left;
     margin-bottom:0px;
-    margin-left:10px;
 }
 
 p{
     font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
-    font-size:14px;
+    font-size:16px;
     margin-bottom:16px;
     line-height: 115%;
-    text-align:left;
 }
 
 
@@ -125,12 +124,6 @@ li.a {
 }
 
 
-
-strong{
-    font-weight:bold;
-}
-
-
 header{
     margin-top:25px;
     background-color:#fff;  
@@ -141,8 +134,22 @@ header{
 }
 
 
-/* Navigation Bar */
+#container{
+    margin: 0 auto;
+    width: 960px; /* Content Width = 920 */
+}
 
+#content{
+    margin-top:15px;
+    margin-bottom:50px;
+    background-color:#FFFFF0; /* Ivory */
+    -moz-border-radius: 0 0 15px 15px;
+    border-radius: 0 0 15px 15px;
+    padding:20px;
+}
+
+
+/* Navigation Bar */
 a{
     color:#A53529; /*  */
 }
@@ -159,8 +166,8 @@ nav {
 nav a{
 	float:left;
 	background-color:#2F4F4F; /* Dark Slate Gray */
-	margin-right:3px;
-	width:204px;
+	/* margin-right:2px; */
+	width:192px;
 	color:#FFFFF0; /* Ivory */
 	text-align:center;
 	padding:4px 0;
@@ -171,24 +178,7 @@ nav .last{
     margin-right:0 !important;
 }
 
-#container{
-    margin: 0 auto;
-    width: 1032px;
-}
 
-#header-image{
-    margin-left: 25px;
-}
-
-
-#content{
-    margin-top:15px;
-    margin-bottom:50px;
-    background-color:#FFFFF0; /* Ivory */
-    -moz-border-radius: 0 0 15px 15px;
-    border-radius: 0 0 15px 15px;
-    padding:20px;
-}
 
 
 
@@ -205,7 +195,7 @@ nav .last{
 }
 
 .profileText{
-	width: 770px;
+	width: 700px;
 	float:left;
 	margin-left:20px;
 }
@@ -213,33 +203,28 @@ nav .last{
 
 /* Software Development */
 .left{
-    width: 340px;
-    float:left;
+    width: 320px;
+    float: left;
     margin-top:10px;
     margin-bottom:50px;
 }
 
 .right{
-    width: 630px;
+    width: 580px;
     float:left;
-    margin-left:10px;
+    margin-left:20px;
     margin-top:10px;
     margin-bottom:50px;
 }
 
-.center{
-    text-align:center;
+/* System Design */
+.systemImage{
+	width: 200px;
+	margin-left:auto;
+	margin-right:auto;
 }
 
-.split{
-    float:left;
-    width:410px;
-    margin-left:10px;
-}
 
-.padded{
-    margin-left:10px;
-}
 
 
 
