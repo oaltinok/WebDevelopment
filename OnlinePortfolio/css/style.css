@@ -179,9 +179,6 @@ nav .last{
 }
 
 
-
-
-
 /* Divisions */
 
 .clear{
@@ -218,10 +215,33 @@ nav .last{
 }
 
 /* System Design */
-.systemImage{
+.systemImageLeft{
 	width: 200px;
+	margin-left:140px;
+	margin-bottom:30px;
+	float:left;
+}
+
+.systemImageMiddle{
+	width: 200px;
+	margin-left:20px;
+	margin-right:20px;
+	margin-bottom:30px;
+	float:left;
+}
+
+.systemImageRight{
+	width: 200px;
+	margin-right:140px;
+	margin-bottom:30px;
+	float:left;
+}
+
+.systemContent{
+	width: 800px;
 	margin-left:auto;
 	margin-right:auto;
+	margin-bottom: 50px;
 }
 
 
