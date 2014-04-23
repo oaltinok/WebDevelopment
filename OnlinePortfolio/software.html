@@ -32,60 +32,129 @@
 
 <h2>High Statistics Data Analysis</h2>
 
-<!-- Data Analysis Package -->
-<h3>Data Analysis Package for MINERvA</h3>
+<!-- CCDeltaPlus Package -->
+<h3>CCDeltaPlus Reconstruction Package</h3>
 
-<center>
-<div class="left">
-	<img src="img/minervaDetector.jpeg" height="189" width="320"/>
-</div>
-</center>
-
-<div class="right">
+<div class="systemContent">
 	<dl>
 		<dt>About:</dt>
 		<dd>
-			C++ Data Analysis Package implemented for MINERvA Analysis Framework. General set of classes are used to apply selections and generate histograms for Data and Monte Carlo events for different Analysis Packages.	
+			Process raw data taken by MINERvA Detector to identify and reconstruct the exclusive channel:	
+		</dd>
+	
+		<p class="greek">
+			&#957 <sub>&#956</sub> + {n} <sub>C</sub> &#8594 &#956 <sup>-</sup> + p + &#960 <sup>0</sup>
+		</p>
+	
+		
+		<dt>Capabilities:</dt>
+		
+		<ul class="insideList">
+			<dd>
+			<li>Part of MINERvA Framework</li>
+			<li>Identifies &#916<sup>+</sup> Production Signal in raw data, by detecting each final state particle</li>
+			<li>Reconstructs each particle trajectory and calculates its 4-Momentum (Px,Py,Pz,E)</li>
+			<li>Using reconstructed particle information estimates interaction kinematics</li>
+			<li>Creates output file which is read by a Data Analysis Package for a more detailed data analysis</li>
+			</dd>
+		</ul>
+			
+		<dt>Technologies:</dt>
+		<ul class="insideList">
+			<dd>
+				<li>C++</li>
+				<li>ROOT Data Analysis Framework</li>
+				<li>Shell Script</li>
+			</dd>
+		</ul>
+		
+		<dt>Source Code:</dt>
+		<dd>
+			<a href="https://github.com/oaltinok/Minerva_Neutrino">gitHub Repository</a>
 		</dd>
 		
-		<dt>Technologies:</dt>
-		<dd>C++, ROOT</dd>
-	
-		<dt>Collaborators:</dt>
-		<dd>None</dd>
-	
-
 	</dl>
 </div>
 
 <div class="clear"></div>
 
 
-<!-- Analysis Framework Manual -->
-<h3>Manual for MINERvA Analysis Framework</h3>
+<!-- NTuple Analysis Package -->
+<h3>NTuple Analysis Package</h3>
 
-<center>
-<div class="left">
-	<img src="img/manual_icon.png" height="150" width="150"/>
-</div>
-</center>
-
-<div class="right">
+<div class="systemContent">
 	<dl>
 		<dt>About:</dt>
 		<dd>
-			Documentation for MINERvA Analysis Framework. The purpose of this document is to help new people to get involved in data analysis using MINERvA AF.	
+			Set of classes used for detailed data analysis for CCDeltaPlus Reconstruction Package output	
+		</dd>
+			
+		<dt>Capabilities:</dt>
+		
+		<ul class="insideList">
+			<dd>
+			<li>Designed to read and process CCDeltaPlus output</li>
+			<li>Improved event selection using reconstructed information</li>
+			<li>Detailed analysis of event kinematics and statistics with different background signals</li>
+			</dd>
+		</ul>
+			
+		<dt>Technologies:</dt>
+		<ul class="insideList">
+			<dd>
+				<li>C++</li>
+				<li>ROOT Data Analysis Framework</li>
+				<li>Shell Script</li>
+			</dd>
+		</ul>
+		
+		<dt>Source Code:</dt>
+		<dd>
+			<a href="https://github.com/oaltinok/Minerva_Neutrino">gitHub Repository</a>
 		</dd>
 		
-		<dt>Technologies:</dt>
-		<dd>C++, ROOT, Kerberos, Grid Computing</dd>
-	
-		<dt>Collaborators:</dt>
-		<dd>None</dd>
-	
-
 	</dl>
 </div>
+
+<div class="clear"></div>
+
+<!-- Analysis Framework Manual -->
+<h3>Manual for MINERvA Analysis Framework</h3>
+
+<div class="systemContent">
+	<dl>
+		<dt>About:</dt>
+		<dd>
+			Documentation for MINERvA Analysis Framework. The purpose of this document is to help new people to get involved in data analysis using MINERvA AF	
+		</dd>
+						
+		<dt>Technologies:</dt>
+		<ul class="insideList">
+			<dd>
+				<li>C++</li>
+				<li>ROOT Data Analysis Framework</li>
+				<li>Kerberos</li>
+				<li>Grid Computing</li>
+			</dd>
+		</ul>
+		
+		<dt>Collaborators:</dt>
+		<ul class="insideList">
+			<dd>
+				<li>Brandon Eberly, University of Pittsburgh</li>
+			</dd>
+		</ul>
+		
+		<dt>Manual in PDF:</dt>
+		<dd>
+			<a href="files/Minerva_Handbook.pdf">MINERvA Handbook</a>
+		</dd>
+		
+	</dl>
+</div>
+
+<div class="clear"></div>
+
 
 <div class="clear"></div>
 
@@ -97,26 +166,66 @@
 <!-- Neutrino Oscillations MATLAB Toolbox -->
 <h3>Neutrino Oscillations MATLAB Toolbox</h3>
 
-<center>
-<div class="left">
-	<img src="img/neutrinoToolbox.jpeg" height="150" width="320"/>
+<div class="systemImageLeft">
+	<center>
+	<img src="img/Toolbox_1.png" height="105" width="200" />
+	</center>
 </div>
-</center>
 
-<div class="right">
+<div class="systemImageMiddle">
+	<center>
+	<img src="img/Toolbox_2.png" height="105" width="200" />
+	</center>
+</div>
 
+<div class="systemImageRight">
+	<center>
+	<img src="img/Toolbox_3.png" height="105" width="200" />
+	</center>
+</div>
+
+<div class="systemContent">
 	<dl>
 		<dt>About:</dt>
 		<dd>
-			MATLAB functions enhanced with GUI used to simulate neutrino  oscillations in matter. Simulation results may help existing and future neutrino oscillations experiments.
+			MATLAB functions enhanced with GUI used to simulate neutrino oscillations in matter. Simulation results may help existing and future neutrino oscillations experiments.	
+		</dd>
+			
+		<dt>Capabilities:</dt>
+		
+		<ul class="insideList">
+			<dd>
+			<li>Calculates Neutrino Oscillation Probability</li>
+			<li>Calculates Event Rate for Nova</li>
+			<li>Detailed analysis of event kinematics and statistics with different background signals</li>
+			</dd>
+		</ul>
+			
+		<dt>Technologies:</dt>
+		<ul class="insideList">
+			<dd>
+				<li>MATLAB</li>
+				<li>MATLAB GUIDE</li>
+			</dd>
+		</ul>
+		
+		<dt>Collaborators:</dt>
+		<ul class="insideList">
+			<dd>
+				<li>Prof. Anthony Mann(Theory), Tufts University</li>
+			</dd>
+		</ul>
+		
+		<dt>MATLAB Application:</dt>
+		<dd>
+			<a href="http://www.mathworks.com/matlabcentral/fileexchange/45551-neutrino-oscillations">  MATLAB App on MATLAB Central</a>
 		</dd>
 		
-		<dt>Technologies:</dt>
-		<dd>MATLAB, MATLAB GUIDE</dd>
-	
-		<dt>Collaborators:</dt>
-		<dd>Prof. Anthony Mann (Theory)</dd>
-			
+		<dt>Source Code:</dt>
+		<dd>
+			<a href="https://github.com/oaltinok/NeutrinoOscillations_MATLAB_Toolbox">gitHub Repository</a>
+		</dd>
+		
 	</dl>
 </div>
 
@@ -124,33 +233,42 @@
 
 
 
-<!-- MINERvA Particle Trajectories -->
+
+<!-- Minerva Tracks -->
 <h3>MINERvA Detector: Particle Trajectories</h3>
 
+
 <center>
-<div class="left">
-	<img src="img/minervaDetector.jpeg" height="189" width="320"/>
-</div>
+	<img src="img/Tracks.jpeg" height="120" width="200" />
+	<p>&nbsp;</p>
 </center>
 
-<div class="right">
-	
+
+<div class="systemContent">
 	<dl>
 		<dt>About:</dt>
 		<dd>
-			Calculates and Plots particle trajectories inside MINERvA detector. For a  given interaction vertex and the particle momentum, user gets geometrical view of  the particle trajectory and the exact coordinate where the particle leaves the  detector.
+			Calculates and Plots particle trajectories inside MINERvA detector 
 		</dd>
-
+			
+		<dt>Capabilities:</dt>
+		
+		<ul class="insideList">
+			<dd>
+			<li>Visualize geometrical view of MINERvA Detector</li>
+			<li>Calculates and Visualize particle trajectory</li>
+			<li>Calculates the the exact coordinate where the particle leaves the detector</li>
+			</dd>
+		</ul>
+			
 		<dt>Technologies:</dt>
-		<dd>MATLAB</dd>	
-
-		<dt>Collaborators:</dt>
-		<dd>None</dd>
-	
-
+		<ul class="insideList">
+			<dd>
+				<li>MATLAB</li>
+			</dd>
+		</ul>
+		
 	</dl>
-	
-
 </div>
 
 <div class="clear"></div>
@@ -158,6 +276,34 @@
 
 
 <h2>Web Development</h2>
+
+<!-- Online Portfolio -->
+<h3>Online Portfolio</h3>
+
+<div class="systemContent">
+	<dl>
+		<dt>About:</dt>
+		<dd>
+			Online Portfolio for my Software Development and System Design projects
+		</dd>
+			
+			
+		<dt>Technologies:</dt>
+		<ul class="insideList">
+			<dd>
+				<li>HTML & CSS</li>
+			</dd>
+		</ul>
+		
+		<dt>Address:</dt>
+		<dd>
+			<a href="http://ozguraltinok.net/">Ozgur Altinok - Online Portfolio</a>
+		</dd>
+		
+	</dl>
+</div>
+
+<div class="clear"></div>
 
 
 </div><!--.content-->

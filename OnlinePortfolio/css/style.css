@@ -39,7 +39,7 @@ body{
     /*Background Pattern */
     background-attachment: scroll, scroll, scroll, scroll, scroll, scroll;
     background-clip: border-box, border-box, border-box, border-box, border-box, border-box;
-    background-color: #202020;
+    background-color: #A9A9A9;
     background-image: -moz-linear-gradient(63deg, #151515 5px, transparent 5px), -moz-linear-gradient(243deg, #151515 5px, transparent 5px), -moz-linear-gradient(63deg, #222222 5px, transparent 5px), -moz-linear-gradient(243deg, #222222 5px, transparent 5px), -moz-linear-gradient(0deg, #1B1B1B 10px, transparent 10px), -moz-linear-gradient(#1D1D1D 25%, #1A1A1A 25%, #1A1A1A 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
     background-origin: padding-box, padding-box, padding-box, padding-box, padding-box, padding-box;
     background-position: 0 5px, 10px 0px, 0 10px, 10px 5px, 0 0%, 0 0;
@@ -83,7 +83,7 @@ h3{
     font-size:16px;
     font-weight:bold;
     text-align:left;
-    margin-bottom:0px;
+    margin-bottom:10px;
 }
 
 p{
@@ -91,6 +91,24 @@ p{
     font-size:16px;
     margin-bottom:16px;
     line-height: 115%;
+}
+
+p.greek{
+	font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+    font-size: 18px;
+    text-align:center;
+}
+
+sub, sup{ 
+	font-size: .83em 
+}
+
+sub{ 
+	vertical-align: sub
+}
+
+sup{ 
+	vertical-align: super 
 }
 
 
@@ -106,7 +124,7 @@ dt {
 dd {
     font-family:  Arial, Helvetica, sans-serif;
     font-size:14px;
-    line-height: 115%;
+   	line-height: 115%;
     text-align:left;
     margin-bottom:5px;
     margin-left:25px;
@@ -246,10 +264,37 @@ nav a:hover
 	border-color:#F0F8FF;
 	border-radius:15px;
 	border-style:outset;
-	border-width:10px;
+	border-width:1px;
+	margin-top: 40px;
+	margin-bottom: 40px;
 	margin-left:auto;
 	margin-right:auto;
+	
 }
+
+.contactIconLeft{
+	width: 150px;
+	margin-left:215px;
+	margin-bottom:30px;
+	float:left;
+}
+
+.contactIconMiddle{
+	width: 150px;
+	margin-left:20px;
+	margin-right:20px;
+	margin-bottom:30px;
+	float:left;
+}
+
+.contactIconRight{
+	width: 150px;
+	margin-right:215px;
+	margin-bottom:30px;
+	float:left;
+}
+
+
 
 p.contact{
 
