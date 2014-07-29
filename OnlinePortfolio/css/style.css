@@ -256,7 +256,6 @@ nav a:hover
 }
 
 /* Contact */
-
 .contactMain{
 	width:400px;
 	padding:15px 10px 10px 10px; 
@@ -297,7 +296,6 @@ nav a:hover
 
 
 p.contact{
-
 	font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
     font-size:16px;
     text-align:center;
@@ -309,6 +307,29 @@ hr.contact{
 	margin-top:15px;
     margin-bottom:15px;
 }
+
+/* CCProtonPi0 */
+table, td{
+   border: 1px solid black;
+   width: 250px
+}
+
+td.single{
+	text-align: center;
+	font-weight:bold;
+}
+
+td.contentCell{
+	width: 70%;
+	text-align: left;
+}
+
+td.colorCell{
+	width: 30%;
+}
+
+
+
 
 
 
