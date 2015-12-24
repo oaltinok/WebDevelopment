@@ -69,11 +69,10 @@ h1{
 
 h2{
     font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
-    font-size:25px;
-    line-height:25px;
+    font-size:30px;
     font-weight:bold;
-    text-align:center;
-    margin-bottom:16px;
+    text-align:left;
+    margin-bottom: 20px;
 }
 
 h3{
@@ -169,18 +168,31 @@ header{
     padding:20px;
 }
 
+.header_text {
+    float: left;
+    width: 460px;
+    height: 100px;
+}
+
+.header_languages {
+    float: right;
+    width: 460px;
+    height: 50px;
+    text-align: right;
+}
+
 h1.header{
     font: 400 100px/1.3 'Oleo Script', Helvetica, sans-serif;
     font-size: 40px;
     color:#008000; /* Green */
-    text-align: center;
+    text-align: left;
 }
 
 h2.header{
     font: 400 100px/1.3 'Oleo Script', Helvetica, sans-serif;
-    font-size: 30px;
-    color:#008080; /* Teal */
-    text-align: center;
+    font-size: 20px;
+    color:#444; /* Teal */
+    text-align: left;
 }
 
 #container{
@@ -194,36 +206,81 @@ h2.header{
     padding:20px;
 }
 
+/* Navigation Bar -- Languages */
+.nav_lang {
+    float:right;
+    width:460px;
+    height:50px;
+    background-color: #fff;
+    text-align: right;
+}
 
-/* Navigation Bar */
+.nav_lang li {
+    display: inline-block;
+    font-family:  Arial, Helvetica, sans-serif;
+    font-size: 10x;
+}
 
-.nav {
+.nav_lang a {
+    margin-left:20px;
+    text-decoration: none;
+    color: #444;
+}
+
+/* Navigation Bar -- Main */
+.nav_main {
+    float:right;
+    width:460px;
+    height:50px;
+    background-color: #fff;
+    text-align: right;
+}
+
+.nav_main li {
+    display: inline-block;
+    font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+    font-size: 20px;
+}
+
+.nav_main a {
+    margin-left:20px;
+    text-decoration: none;
+    color: #444;
+}
+
+/* Navigation Bar -- Products */
+
+.nav_products {
     background-color: #fff;
     text-align: center;
 }
 
-.nav li {
+.nav_products ul {
+    text-align: center;
+}
+
+.nav_products li {
     display: inline-block;
     font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
     font-size: 20px;
     font-weight: bold;
 }
 
-.nav a {
+.nav_products a {
     margin-left:20px;
     text-decoration: none;
     color: #444;
 }
 
-.nav a:hover {
+.nav_products a:hover {
     color: #B22222; /* Fire Brick */
 }
 
-.nav a.active{
+.nav_products a.active{
     color: #B22222; /* Fire Brick */
 }
 
-.nav hr {
+.nav_products hr {
     border-style: dotted;
     border-width: 1px;
 }
