@@ -1,0 +1,372 @@
+@import "fonts.css";
+
+/*
+RESET
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+
+header, hgroup,nav,section,article,aside,footer {display:block;}
+
+body{
+    /*Background Pattern */
+    background-attachment: scroll, scroll, scroll, scroll, scroll, scroll;
+    background-clip: border-box, border-box, border-box, border-box, border-box, border-box;
+    background-color: #E8E8E8;
+    background-image: -moz-linear-gradient(63deg, #151515 5px, transparent 5px), -moz-linear-gradient(243deg, #151515 5px, transparent 5px), -moz-linear-gradient(63deg, #222222 5px, transparent 5px), -moz-linear-gradient(243deg, #222222 5px, transparent 5px), -moz-linear-gradient(0deg, #1B1B1B 10px, transparent 10px), -moz-linear-gradient(#1D1D1D 25%, #1A1A1A 25%, #1A1A1A 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+    background-origin: padding-box, padding-box, padding-box, padding-box, padding-box, padding-box;
+    background-position: 0 5px, 10px 0px, 0 10px, 10px 5px, 0 0%, 0 0;
+    background-repeat: repeat, repeat, repeat, repeat, repeat, repeat;
+    background-size: 20px 20px;
+    /* End */
+    /* font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif; */
+    font-family:  Arial, Helvetica, sans-serif;
+    font-size:16px;
+    margin-bottom:16px;
+    line-height: 115%;
+}
+
+/* Line */
+hr{
+    margin-bottom:15px;
+    color:#c0c0c0; /* Silver */
+}
+
+h1{
+    font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+    font-size: 40px;
+    line-height:30px;
+    color:#B22222; /* Fire Brick */
+    margin-top:5px;
+    margin-bottom:10px;
+}
+
+h2{
+    font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+    font-size:25px;
+    line-height:25px;
+    font-weight:bold;
+    text-align:center;
+    margin-bottom:16px;
+}
+
+h3{
+    font-family:  Arial, Helvetica, sans-serif;
+    color:#008000; /* Green  */
+    font-size:20px;
+    font-weight:bold;
+    text-align:left;
+    margin-bottom:10px;
+}
+
+h4{
+    font-family:  Times New Roman, Georgia, serif;
+    color:#016135; /* Green  */
+    font-size:25px;
+    font-weight:bold;
+    text-align:left;
+    margin-bottom:10px;
+}
+
+h5{
+    font-family:  Times New Roman, Georgia, serif;
+    color:#016135; /* Green  */
+    font-size:16px;
+    font-weight:bold;
+    text-align:right;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+p{
+    font-family:  Arial, Helvetica, sans-serif;
+    font-size:16px;
+    margin-bottom:16px;
+    line-height: 115%;
+}
+
+p.greek{
+	font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+    font-size: 18px;
+    text-align:center;
+}
+
+sub, sup{ 
+	font-size: .83em 
+}
+
+sub{ 
+	vertical-align: sub
+}
+
+sup{ 
+	vertical-align: super 
+}
+
+
+/* Description List */
+dt {
+    font-family:  Arial, Helvetica, sans-serif;
+    font-size:14px;
+    font-weight:bold;
+    line-height: 115%;
+    text-align:left;
+}
+
+dd {
+    font-family:  Arial, Helvetica, sans-serif;
+    font-size:14px;
+   	line-height: 115%;
+    text-align:left;
+    margin-bottom:5px;
+    margin-left:25px;
+}
+
+
+/* Unordered List */
+ul.insideList {
+	list-style-position:inside;
+	list-style-type:square;
+    font-size:16px;
+}
+
+li.a {
+	margin-bottom:5px;
+}
+
+li.productContent{
+    font-family:  Arial, Helvetica, sans-serif;
+    font-size:12px
+    margin-bottom:12px;
+    line-height: 115%;
+}
+
+header{
+    margin-top:25px;
+    height:50px;
+    -moz-border-radius: 15px 15px 0 0;
+    border-radius: 15px 15px 0 0; 
+    background-color:#FFFFFF; /* White */
+    padding:10px;
+}
+
+
+#container{
+    margin: 0 auto;
+    width: 960px; /* Content Width = 920 */
+}
+
+#content{
+    margin-top:15px;
+    margin-bottom:50px;
+    background-color:#FFFFFF; /* White */
+    -moz-border-radius: 0 0 15px 15px;
+    border-radius: 0 0 15px 15px;
+    padding:20px;
+}
+
+
+/* Navigation Bar */
+nav {
+    overflow:auto;
+}
+
+nav a{
+	font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+	float:left;
+	background-color:#008000; /* Green */
+	width:192px;
+	color:#FFFFFF; /* White */
+	text-align:center;
+	padding:4px 0;
+	text-decoration:none;
+}
+
+nav a:hover
+{ 
+	background-color:#B22222; /* Fire Brick */
+}
+
+
+/* Divisions */
+
+.clear{
+    clear:both;
+}
+
+
+/* Header */
+.header_logo{
+    width: 300;
+    float:left;
+}
+
+.header_languages{
+    width:50;
+    float:right;
+    margin-right:20px;
+    margin-top:12px;
+    margin-bottom:12px;
+}
+
+/* Home - index.html */
+.home{
+	width: 200px;
+	float: left;
+}
+
+.homeText{
+	width: 700px;
+	float:left;
+	margin-left:20px;
+}
+
+/* About Us - about.html */
+.profile{
+	width: 200px;
+	float: left;
+}
+
+.profileText{
+	width: 700px;
+	float:left;
+	margin-left:20px;
+}
+
+/* Products */
+.productImage{
+    width: 200px;
+    float: left;
+}
+
+.productDescription{
+    width: 450px;
+    float:left;
+    margin-left:20px;
+}
+
+.productContent{
+    width: 230px;
+    float:left;
+    margin-left:20px;
+}
+
+/* News */
+.newsDate{
+    width: 200px;
+    float:left;
+}
+
+.newsContent{
+    width: 700px;
+    float:left;
+    margin-left:20px;
+}
+
+/* Contact */
+.contactMain{
+	width:400px;
+	padding:15px 10px 10px 10px; 
+	background:#F0F8FF;
+	border-color:#F0F8FF;
+	border-radius:15px;
+	border-style:outset;
+	border-width:1px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+
+.contactIconLeft{
+	width: 150px;
+	margin-left:215px;
+	margin-bottom:30px;
+	float:left;
+}
+
+.contactIconMiddle{
+	width: 150px;
+	margin-left:20px;
+	margin-right:20px;
+	margin-bottom:30px;
+	float:left;
+}
+
+.contactIconRight{
+	width: 150px;
+	margin-right:215px;
+	margin-bottom:30px;
+	float:left;
+}
+
+
+
+p.contact{
+	font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+    font-size:16px;
+    text-align:center;
+    margin-bottom:5px;
+    line-height: 115%;
+}
+
+hr.contact{
+	margin-top:15px;
+    margin-bottom:15px;
+}
+
+/* CCProtonPi0 */
+table, td{
+   border: 1px solid black;
+   width: 250px
+}
+
+td.single{
+	text-align: center;
+	font-weight:bold;
+}
+
+td.contentCell{
+	width: 70%;
+	text-align: left;
+}
+
+td.colorCell{
+	width: 30%;
+}
+
+
+
+
+
+
+
+
